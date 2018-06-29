@@ -1,1 +1,16 @@
-You can find Static and Dynamic Linking Examples in repo
+You can find Static and Dynamic Linking Examples
+
+Two types of linking : STATIC and DYNAMIC(shared)
+
+Static Library
+
+Windows -> .lib (Library)
+Linux -> .a (Archive)
+
+
+Dynamic Library
+Windows -> .dll (Dynamic link linking)
+Linux -> .so (shared object)
+
+In static library example just you can use Makefile.
+If you are using Makefile with an dynamic library, you should look Makefile comment section before make run command.
